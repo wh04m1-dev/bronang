@@ -1,4 +1,4 @@
-import BookImage from '@/Img/Index/Hero/book.png'; 
+// import BookImage from "@/Img/Index/Hero/book.png";
 
 const HeroHome = () => {
   return (
@@ -8,12 +8,16 @@ const HeroHome = () => {
           Liberty Reads, <br /> Your Gateway To Great Books
         </h1>
         <p className="mt-4 text-lg text-[#444444]">
-          Discover a world of knowledge and imagination. Explore our collection, find your next great read, and let your journey begin.
+          Discover a world of knowledge and imagination. Explore our collection,
+          find your next great read, and let your journey begin.
         </p>
-       
       </div>
       <div className=" mt-6 mr-20">
-        <img src={BookImage} alt="Books" className="w-72  transform hover:scale-105 transition-transform duration-300  rounded-lg" />
+        {/* <img
+          src={BookImage}
+          alt="Books"
+          className="w-72  transform hover:scale-105 transition-transform duration-300  rounded-lg"
+        /> */}
       </div>
     </div>
   );
